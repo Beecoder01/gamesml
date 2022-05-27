@@ -1,5 +1,5 @@
 const cacheName = 'vs apps'; 
-const staticAssets = ['./', './index.html', './index.js','./style.css'];
+const staticAssets = ['./', './index.html', './Js/index.js','./style.css'];
 
 self.addEventListener('install', async e => { 
     const cache = await caches.open(cacheName); 
