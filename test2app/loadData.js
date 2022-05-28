@@ -35,6 +35,8 @@ btn1.addEventListener('click', (e) => {
 if (loadData) {
     document.getElementById("display").style.display = "none";
     document.getElementById("show").style.display = "block";
+    document.getElementsByTagName('body')[0].style.background = 'unset';
+    document.getElementsByTagName('body')[0].classList.add('backgroundLoadData');
     console.log(loadData);
 } else {
     console.log(loadData);
