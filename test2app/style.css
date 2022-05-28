@@ -54,3 +54,10 @@ iframe{
     display: none;
     min-height: 100vh;
 }
+.backgroundLoadData{
+background: url('https://i.gifer.com/ZZ5H.gif');
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+background-size: 60px;
+}
