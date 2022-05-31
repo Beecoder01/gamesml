@@ -1,0 +1,91 @@
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.navbar ,.footer{
+    background-color: #18c06b;
+}
+.background_cover{
+    background-image: url("../images/bgstruckd_game.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 90vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.306);
+    min-height: 90vh;
+}
+h1{
+    font-size: 2rem;
+}
+.btn{
+    background-color: #18c06b;
+    font-size: 1.12rem;
+    font-weight: 500;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+}
+.btn:hover{
+    background-color: #0f7b45;
+}
+.full{
+    min-height: 90vh;
+}
+.bgImageCards{
+    min-height: 16rem;
+    background-image: url("../images/bgstruckd_game.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.snow{
+    background-image:
+        url(https://i.imgur.com/uYjnk8N.png), 
+           url(https://i.imgur.com/iAGD6MA.png), 
+           url(https://i.imgur.com/hIJDjbg.png);
+animation: snow 30s linear infinite;
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
+}
+a{
+    text-decoration: none;
+}
+.cstm {
+        position: relative;
+        min-width: 120px;
+        min-height: 160px;
+        max-width: 120px;
+        /* background-image: url('assets/images/youtube.png'); */
+        background-position: center;
+        background-size: cover;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.child {
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        width: 120px;
+        height: 30px;
+        border-radius: 8px;
+}
+
+.childX {
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        width: 120px;
+        height: 30px;
+        color: white;
+        overflow: hidden;
+}
+.mbr-section-btn a .w_80{
+    min-width: 200px;
+    background-color: red;
+}
